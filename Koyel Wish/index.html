@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <title>Happy Birthday!</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">BirthDay</a>
+        <nav class="navbar">
+            <a href="#memories">Memories</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <audio autoplay id="refreshSound">
+                <source src="6qkglch-fireworks_KKSl5bdh.mp3" type="audio/mp3">
+            </audio>
+            <h3 class="heading">Happy Birthday To</h3>
+            <h1>My Dear, <span class="multiple-text"></span></h1>
+            <p>Happy birthday to my sweetest darling, Koyel! Many many happy returns of the day. I'm
+                so thankful to have a friend like you! 💖 So, Finally it's your birthday. 
+                Let's go back to some old memories of us. 👀 You need to click 👆 on each pictures.</p>
+        </div>
+        <div class="home-img">
+            <img src="images/img-1-1.jpeg" alt="">
+        </div>
+        
+    </section>
+    <section class="memories" id="memories">
+        <h2 class="heading2">Our <span> Memories</span></h2>
+        <div class="memories-container">
+            
+        <div class="memories-img">
+                <img src="images/img-2.3.jpeg" alt="">
+        <div class="memories-content">
+            <h3>Day <span>19 Dec</span> 2023</h3>
+            <p>Onek english e bole felechi ebar nijeder vasay fire jawa jak.
+                Ki re mone porche..? December mash e thandai sokal bela amae callkore bolli hotat vai ajke asbi dekha korte?
+                and amio chole gelam dekha korte.. Arehhhh amather prothom pic toh!!😎😎
+            </p>
+        </div>
+    </div>
+    </div>
+    <div class="memories-container">
+        <div class="memories-img">
+                <img src="images/img-2.2.jpeg" alt="">
+        <div class="memories-content">
+            <h3>Day <span>18th Aug</span> 2024</h3>
+            <p>Dekha amather onek bar e hoache but chobi besi tola hoyni... 🫠Ei dine cinema dekhte gechilam kichu din agei tor mone toh achei but pic nei tai ei pic ta die e kaj chalalam 😅</p>
+        </div>
+    </div>
+    </div>
+    
+    </section>
+    <section class="wishes">
+        <div class="wishes-container">
+            <div class="wishes-content">
+                <h3>Wish me</h3>
+                <p>
+                    Onek moja thatta holo ebar aktu serious howa jak😌 aktu e hobo besi na kintu😜 jani na koto ta bolte parbo but
+                    ann annn ki vabchis aaann ki bolbo ??.. But jai bol memories ta aktu faka faka lagche karon tor sathe amar besi chobi nei 
+                    soo vorte parlam naa memories taa 🥲 but amather besi smriti sob game, call & chats ei ache.. Eta bolbo na je tui khub besi purono bondhu 
+                    but eta ami bolte baddho eto kom somoy eto taa close tui chara er age keu amr hoi nii.. But akta fact ki janis tw amather khub besi dekha hoyni
+                    amra khub besi memoris create korte pari ni but jeituku e korechi asha kori tor o chirokal mone thakbe... jak onek boke fellam 
+                    ajker din ta khub khub khub enjoy kor sob somoy hasi khusi thak moja kor sob somoy pase achi chap nei... Khub sigroi dekha hoache tahole.. Good Night Sweet dreams💖
+                    
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+        <p>Thank You, 
+        <span> For Visiting.</span></p>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+    </footer>
+    <script>function handleVisibilityChange() {
+        if (!document.hidden) {
+            var audio = document.getElementById("refreshSound");
+            audio.play().catch(function(error) {
+                console.log("Autoplay was prevented:", error);
+            });
+        }
+      }
+      
+      document.addEventListener("visibilitychange", handleVisibilityChange, false);
+      </script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</body>
+</html>
